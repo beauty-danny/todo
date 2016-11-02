@@ -13,7 +13,7 @@ html{
     font-size: 100px;
 }
 body{
-    font-size: 30px;
+    font-size: 20px;
     background: #F7F7A5;
 }
 $screen-size:320px,360px,375px,412px,414px;
@@ -26,32 +26,44 @@ $design-size:750px;
     }
 }
 .head{
-    height: 1rem;
-    background: yellow;
+    height: 2rem;
+    background: #F6F6F6;
     position: relative; 
+    padding: 0 0.1rem;
     margin-bottom: 0.1rem;       
     border-bottom:0.01rem solid #ccc;
+    .today{
+        height:1rem;
+        width: 2rem;
+        font-family: "微软雅黑";
+        padding:0.2rem 0;
+        font-size: 20px;
+    }
     input{
-        height: 1rem;
+        height: 0.8rem;
+        background:#fff;
         width: 100%;
         outline: none; 
-        border: 0;      
+        border: 0; 
+        box-shadow: 0 0 0.04rem #F6F6F6; 
+        border-radius:0.4rem 0.4rem 0.4rem 0.4rem;    
     }
     .add{
-        height: 0.5rem;
-        width: 0.5rem;
+        height: 0.8rem;
+        width: 0.8rem;
         position: absolute;
         right:0;
-        top:40%;
+        top:0.1rem;
         background: red;
         color: #fff;
         text-align: center;
         line-height: 0.5rem;
-        border-radius: 50%;
+//      border-radius: 50%;
         overflow: hidden;
         img{
-            height:0.5rem
-            width:0.5rem;
+            display: block;
+            height:0.8rem;
+            width:0.8rem;
         }
     }
 }
@@ -78,7 +90,7 @@ $design-size:750px;
             right: 0.1rem;
             top: 0.3rem;
             height: 0.3rem;
-            width: 0.8rem;
+            width:1rem;
             transform: rotate(30deg);
             background:url(../img/huzi.png)no-repeat;
             display: none;            
@@ -107,16 +119,34 @@ $design-size:750px;
     position: absolute;
     bottom: 0;
     left:0;
-    background: orange;
+    background:#DBBC85;
     div{
         float: left;
-        width: 32%;
+        width: 20%;
         text-align: center;
         line-height: 1rem;
-        margin-left: 0.02rem;
+        overflow:hidden;
+//      margin-left: 0.02rem;
+//      border-radius:0.4rem 0.4rem 0.4rem 0.4rem;
         height: 100%;
-        background: #fff;
+        background:#F5EFCD;
+        img{
+            width: 100%;
+            background: cover;
+        }
     }
+//  div:nth-child(1){
+//      background: #CA813D;
+//  }
+//  div:nth-child(2){
+//      background: #B29844;
+//  }
+//  div:nth-child(3){
+//      background: #C94DC7;
+//  }
+//  div:nth-child(4){
+//      background: #D87E7E;
+//  }
 }
 
 

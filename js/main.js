@@ -49,6 +49,14 @@ $(function(){
 				localStorage.arr=JSON.stringify(arr);
 			}
 	})
+	//对应点击
+	$('.chose img').on('touchstart',function(){
+		console.log($('chose img'))
+		$('ul .down').css('display','none');
+		arr[$(this).index()].states=0;
+		localStorage.arr=JSON.stringify(arr);
+//		$('ul li').css('display','none');
+	})
 	
 })
 
