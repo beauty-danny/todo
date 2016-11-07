@@ -113,13 +113,16 @@ body {
   position: relative;
   background: pink;
   border-radius: 10%;
+  overflow: hidden;
 }
 
 .todolist li .content {
   height: 100%;
+  width: 100%;
   color: #4C4C4C;
   text-align: center;
   background: #fff;
+  overflow: hidden;
 }
 
 .todolist li .delete {
