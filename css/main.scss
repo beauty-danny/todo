@@ -43,6 +43,7 @@ $design-size:750px;
         height: 0.8rem;
         background:#fff;
         width: 100%;
+        padding:0 0.5rem;
         outline: none; 
         border: 0; 
         box-shadow: 0 0 0.04rem #F6F6F6; 
@@ -54,11 +55,9 @@ $design-size:750px;
         position: absolute;
         right:0;
         top:0.1rem;
-        background: red;
         color: #fff;
         text-align: center;
         line-height: 0.5rem;
-//      border-radius: 50%;
         overflow: hidden;
         img{
             display: block;
@@ -69,7 +68,8 @@ $design-size:750px;
 }
 .todolist{
     width: 100%;
-    height: auto;
+    height:9.3rem;
+    overflow: hidden;
     li{
         height: 3rem;
         width: 50%;
@@ -126,8 +126,6 @@ $design-size:750px;
         text-align: center;
         line-height: 1rem;
         overflow:hidden;
-//      margin-left: 0.02rem;
-//      border-radius:0.4rem 0.4rem 0.4rem 0.4rem;
         height: 100%;
         background:#F5EFCD;
         img{
@@ -135,18 +133,6 @@ $design-size:750px;
             background: cover;
         }
     }
-//  div:nth-child(1){
-//      background: #CA813D;
-//  }
-//  div:nth-child(2){
-//      background: #B29844;
-//  }
-//  div:nth-child(3){
-//      background: #C94DC7;
-//  }
-//  div:nth-child(4){
-//      background: #D87E7E;
-//  }
 }
 
 

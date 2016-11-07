@@ -73,6 +73,7 @@ body {
   height: 0.8rem;
   background: #fff;
   width: 100%;
+  padding: 0 0.5rem;
   outline: none;
   border: 0;
   box-shadow: 0 0 0.04rem #F6F6F6;
@@ -85,7 +86,6 @@ body {
   position: absolute;
   right: 0;
   top: 0.1rem;
-  background: red;
   color: #fff;
   text-align: center;
   line-height: 0.5rem;
@@ -100,7 +100,8 @@ body {
 
 .todolist {
   width: 100%;
-  height: auto;
+  height: 9.3rem;
+  overflow: hidden;
 }
 
 .todolist li {
